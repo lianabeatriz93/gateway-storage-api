@@ -61,10 +61,12 @@ To model the requirements, mongodb was used. Two collections were created, gatew
 
 - To load details of one gateway and his peripherals associated.
 
+Arguments:
+
 ```json
-Arguments: {
-    "serialId": "string" | "undefined",
-    "_id": "string" | "undefined"
+{
+  "serialId": "string | undefined",
+  "_id": "string | undefined"
 }
 ```
 
@@ -72,17 +74,21 @@ Arguments: {
 
 - To add one gateway and his peripherals
 
+Arguments:
+
 ```json
-Arguments: {
-    "serialId": "string",
-    "name": "string",
-    "ipAddress": "string",
-    "peripherals": [{
-        "uid": "number",
-        "vendor": "string",
-        "status": "string",
-        "date": "date"
-    }]
+{
+  "serialId": "string",
+  "name": "string",
+  "ipAddress": "string",
+  "peripherals": [
+    {
+      "uid": "number",
+      "vendor": "string",
+      "status": "string",
+      "date": "date"
+    }
+  ]
 }
 ```
 
@@ -90,11 +96,13 @@ Arguments: {
 
 - To change editable properties of one gateway
 
+Arguments:
+
 ```json
-Arguments: {
-    "serialId": "string",
-    "name": "string",
-    "ipAddress": "string"
+{
+  "serialId": "string",
+  "name": "string",
+  "ipAddress": "string"
 }
 ```
 
@@ -102,10 +110,12 @@ Arguments: {
 
 - To delete one gateway and his peripherals associated
 
+Arguments:
+
 ```json
-Arguments: {
-    "serialId": "string" | "undefined",
-    "_id": "string" | "undefined"
+{
+  "serialId": "string | undefined",
+  "_id": "string | undefined"
 }
 ```
 
@@ -113,19 +123,20 @@ Arguments: {
 
 - To add peripheral to a gateway
 
-```json
-Arguments: {
-    "gateway": {
-        "serialId": "string" | "undefined",
-        "_id": "string" | "undefined"
-    },
-    "peripheral": {
-        "uid": "number",
-        "vendor": "string",
-        "status": "string",
-        "date": "date"
-    }
+Arguments:
 
+```json
+{
+  "gateway": {
+    "serialId": "string | undefined",
+    "_id": "string | undefined"
+  },
+  "peripheral": {
+    "uid": "number",
+    "vendor": "string",
+    "status": "string",
+    "date": "date"
+  }
 }
 ```
 
@@ -133,9 +144,11 @@ Arguments: {
 
 - To delete peripheral from a gateway
 
+Arguments:
+
 ```json
-Arguments: {
-    "uid": "number" | "undefined",
-    "_id": "string" | "undefined"
+{
+  "uid": "number | undefined",
+  "_id": "string | undefined"
 }
 ```
