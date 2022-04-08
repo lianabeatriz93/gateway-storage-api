@@ -1,0 +1,14 @@
+{
+    "gateway": {
+        "name": "Gateway to unit test",
+        "ipAddress": "127.0.0.1",
+        "peripherals": [],
+        "serialId": "000000000"
+    },
+    "peripheral": {
+        "date": "2022-04-02T20:27:38.245Z",
+        "status": "offline",
+        "uid": -1,
+        "vendor": "Test"
+    }
+}

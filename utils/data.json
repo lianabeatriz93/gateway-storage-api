@@ -1,0 +1,230 @@
+{
+    "gateways": [
+        {
+            "name": "Gateway Test Marianao",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070001,
+                    "vendor": "Marianao Shop Sirena",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070002,
+                    "vendor": "Marianao Shop 100 51",
+                    "status": "offline",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "MARIANAO20220407"
+        },
+        {
+            "name": "Gateway Test Plaza",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070003,
+                    "vendor": "Plaza Shop Flores",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "PLAZA20220407"
+        },
+        {
+            "name": "Gateway Test Lisa",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070004,
+                    "vendor": "Lisa Shop 51",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070005,
+                    "vendor": "Lisa Shop TRD",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "LISA20220407"
+        },
+        {
+            "name": "Gateway Test 10 Octubre",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070006,
+                    "vendor": "10 Octubre Shop Benefica",
+                    "status": "offline",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "10OCTUBRE20220407"
+        },
+        {
+            "name": "Gateway Test Vedado",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070007,
+                    "vendor": "Vedado Shop 23",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070008,
+                    "vendor": "Vedado Shop G",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070009,
+                    "vendor": "Vedado Shop J",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070010,
+                    "vendor": "Vedado Shop Malecon",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070011,
+                    "vendor": "Vedado Shop I",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070012,
+                    "vendor": "Vedado Shop 1ra y Malecon",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070013,
+                    "vendor": "Vedado Shop Paseo",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070014,
+                    "vendor": "Vedado Shop 35",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070015,
+                    "vendor": "Vedado Shop 23 y 12",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070016,
+                    "vendor": "Vedado Shop 26",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "VEDADO20220407"
+        },
+        {
+            "name": "Gateway Test Vivora",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070017,
+                    "vendor": "Vivora Shop Sevillano",
+                    "status": "offline",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "VIVORA20220407"
+        },
+        {
+            "name": "Gateway Test Habana Vieja",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070018,
+                    "vendor": "Habana Vieja Shop Obispo",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070019,
+                    "vendor": "Habana Vieja Epoca",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "HABANAVIEJA20220407"
+        },
+        {
+            "name": "Gateway Test Cerro",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070020,
+                    "vendor": "Cerro Shop ISDI",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "CERRO20220407"
+        },
+        {
+            "name": "Gateway Test Centro Habana",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070021,
+                    "vendor": "Centro Habana Shop Vento",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070022,
+                    "vendor": "Centro Habana Shop Vento y Camaguey",
+                    "status": "offline",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "CENTROHABANA20220407"
+        },
+        {
+            "name": "Gateway Test Boyeros",
+            "ipAddress": "127.0.0.1",
+            "peripherals": [
+                {
+                    "uid": 202204070023,
+                    "vendor": "Boyeros Shop AltaHabana",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070024,
+                    "vendor": "Boyeros Shop 1ro de Mayo",
+                    "status": "offline",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070025,
+                    "vendor": "Boyeros Shop Santiago",
+                    "status": "offline",
+                    "date": "2022-04-05T21:56:22.733Z"
+                },
+                {
+                    "uid": 202204070026,
+                    "vendor": "Boyeros Shop 10",
+                    "status": "online",
+                    "date": "2022-04-05T21:56:22.733Z"
+                }
+            ],
+            "serialId": "BOYEROS20220407"
+        }
+    ]
+}
